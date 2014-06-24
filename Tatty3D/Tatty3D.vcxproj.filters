@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4fe051c3-e68b-43e6-82ac-797209602bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tatty">
+      <UniqueIdentifier>{709c7093-d998-4ab2-ba52-0a2825886533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{846b2f40-a9fd-4314-b2ac-4e740def45bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tatty\TAT">
+      <UniqueIdentifier>{f59b2341-0f52-4659-851d-40f5dfec4580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tatty\TAT\device">
+      <UniqueIdentifier>{1653741a-3f80-4e7e-8a8d-a0d7b950797c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tatty\driver">
+      <UniqueIdentifier>{dab17a82-dd89-430d-87a8-905bfc8ef9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tatty\driver\graphics">
+      <UniqueIdentifier>{a7d9716a-dd22-4e46-826c-ab874bc60fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\graphics">
+      <UniqueIdentifier>{fedda7b1-adac-4748-9bc4-6cd464919d4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tatty3D.h">
+      <Filter>Tatty</Filter>
+    </ClInclude>
+    <ClInclude Include="vector4.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="t3Math.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix4.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Tatty\TAT</Filter>
+    </ClInclude>
+    <ClInclude Include="TattyDevice.h">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClInclude>
+    <ClInclude Include="OSXDevice.h">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxDevice.h">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClInclude>
+    <ClInclude Include="WinDevice.h">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDriver.h">
+      <Filter>Tatty\driver\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TattyDriver.h">
+      <Filter>Tatty\driver\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NullDriver.h">
+      <Filter>Tatty\driver\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex3.h">
+      <Filter>include\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>include\graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="timer.cpp">
+      <Filter>Tatty\TAT</Filter>
+    </ClCompile>
+    <ClCompile Include="TattyDevice.cpp">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClCompile>
+    <ClCompile Include="OSXDevice.cpp">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxDevice.cpp">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDevice.cpp">
+      <Filter>Tatty\TAT\device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tatty3D.cpp">
+      <Filter>Tatty</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXDriver.cpp">
+      <Filter>Tatty\driver\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TattyDriver.cpp">
+      <Filter>Tatty\driver\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullDriver.cpp">
+      <Filter>Tatty\driver\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex3.cpp">
+      <Filter>include\graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
