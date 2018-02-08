@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{31f8bff1-c9bc-4faf-b3cd-85a4af021d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency">
+      <UniqueIdentifier>{b4bbde85-81dd-4f41-aba3-5408901689f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tatty3D">
+      <UniqueIdentifier>{a18d69a4-d888-4460-b7a3-b3cac62c77a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\tinyobjloader">
+      <UniqueIdentifier>{e48c252d-5f12-4ae3-b5fb-eb8c8fde00b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\t3Math">
+      <UniqueIdentifier>{14fedaae-2f08-4677-a012-63434b9bb277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\t3DataStructures">
+      <UniqueIdentifier>{76f9fe23-45b8-4a5e-adc2-b0a52a0e4c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\lodepng">
+      <UniqueIdentifier>{0ea851d6-06f0-470b-a984-e0cdcc9a9784}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
